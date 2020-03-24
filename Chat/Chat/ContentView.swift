@@ -7,18 +7,22 @@
 //
 
 import SwiftUI
+import MessageKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, World!")
-            Text("Hello and fuck you!")
-        }
+        ChatSwiftUIViewController()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ZStack {
+//            Color.black
+//            .edgesIgnoringSafeArea(.all)
+//            ContentView()
+//                .previewDevice("iPhone 11")
+//                .preferredColorScheme(.dark)
+//        }
+//    }
+//}
